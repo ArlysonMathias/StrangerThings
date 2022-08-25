@@ -169,6 +169,18 @@ header::before {
   color: var(--primary-color-contrast);
 }
 
+.header-content img:hover{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.6);
+}
+
+.header-content p:hover{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.6);
+}
+
 /* Characters */
 .world-characters {
   width: 100%;
@@ -237,6 +249,12 @@ section {
   max-width: 300px;
 }
 
+#section-inverted-world img:hover{
+    cursor: pointer;
+   
+    transform: scale(1.1);
+}
+
 #section-strager-things-trailer .section-texts {
   width: 50%;
   text-align: right;
@@ -289,6 +307,12 @@ section {
   border: 3px solid var(--primary-color);
   box-sizing: initial;
 }
+
+#section-strager-things-gallery .gallery-image img:hover{
+    cursor: pointer;
+    transform: scale(1.6);
+}
+
 
 #section-strager-things-gallery .gallery-image img {
   width: 100%;

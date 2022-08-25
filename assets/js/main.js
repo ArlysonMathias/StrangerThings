@@ -17,3 +17,5 @@ window.addEventListener("click", function () {
   audio.play();
   audio.volume = 0.2;
 });
+
+window.document.getElementById("txtName")
