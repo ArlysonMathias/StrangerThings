@@ -18,4 +18,22 @@ window.addEventListener("click", function () {
   audio.volume = 0.2;
 });
 
-window.document.getElementById("txtName")
+// Variáveis
+const txtName = document.getElementById("txtName");
+const txtEmail = document.getElementById("txtEmail");
+const txtLevel = document.getElementById("txtLevel");
+const txtCharacter = document.getElementById("txtCharacter");
+const btnSubscribe = document.getElementById("button-subscribe");
+
+// evento do botão
+
+btnSubscribe.addEventListener("click", () => {
+  const subscription = {
+    name: txtName.value,
+    email: txtEmail.value,
+    level: txtLevel.value,
+    character: txtCharacter.value,
+  };
+
+  console.log(subscription)
+});
